@@ -6,10 +6,15 @@ h1 {
 	font-size: 4em;
 }
 
+h2 {
+	margin-top: 2em;
+}
+
 p {
-font-family: 'Quattrocento', serif;
-font-size: 1.2em;
-text-align: justify;
+	font-family: 'Quattrocento', serif;
+	font-size: 1.2em;
+	text-align: justify;
+	line-height: 1.2em;
 }
 
 
@@ -18,5 +23,10 @@ text-align: justify;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 50%;
+/*	width: 50%;
+*/	max-width: 630px;
+}
+
+.paragraph {
+	margin-top: 2em;
 }
