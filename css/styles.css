@@ -18,19 +18,39 @@ p {
 }
 
 .note {
-	font-family: 'Quattrocento', serif;
-	font-size: 0.7em;
-	background-color: gray;
+	margin: 0;
+/*	padding: .2em .6em 0.05em 1em;
+*/	font-family: 'Quattrocento', serif;
+	font-size: 1em;
+	line-height: 1.2em;
+/*	background-color: #F5F5F5;
+*/	color: gray;
 }
+
+.note h3 {
+	color: gray;
+	margin-top: 0;
+/*	text-align: center;
+*/}
+
+.note p {
+/*	text-align: center;
+*/}
 
 .main {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-/*	width: 50%;
-*/	max-width: 630px;
+	max-width: 630px;
 }
 
 .paragraph {
 	margin-top: 2em;
+}
+
+.table {
+	margin: 2em 0 2em 0;
+	border: 2px solid red;
+	height: 15em;
+	width: 100%;
 }
